@@ -1,0 +1,22 @@
+.skill-category {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 24px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+}
+
+.skill-category__title {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--color-accent);
+  text-transform: uppercase;
+}
+
+.skill-category .badge-list {
+  gap: 12px;
+}

@@ -1,0 +1,48 @@
+.profile {
+  flex-direction: row;
+  gap: 80px;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.profile__photo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 0 0 400px;
+}
+
+.profile__bio {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  flex: 1;
+  min-width: 0;
+}
+
+.profile__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
+.profile__intro {
+  color: var(--color-text);
+}
+
+@media (max-width: 1000px) {
+  .profile {
+    flex-direction: column;
+    gap: 48px;
+    padding-top: 64px;
+  }
+
+  .profile__photo {
+    flex-basis: auto;
+    width: 100%;
+    max-width: 400px;
+  }
+}

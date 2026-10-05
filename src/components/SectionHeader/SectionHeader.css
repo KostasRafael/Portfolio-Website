@@ -1,0 +1,28 @@
+.section-header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.section-header__title {
+  font-weight: 800;
+}
+
+.section-header__title--sm {
+  font-size: 24px;
+}
+
+.section-header__title--md {
+  font-size: 28px;
+}
+
+.section-header__title--xl {
+  font-size: 48px;
+}
+
+@media (max-width: 600px) {
+  .section-header__title--xl {
+    font-size: 36px;
+  }
+}

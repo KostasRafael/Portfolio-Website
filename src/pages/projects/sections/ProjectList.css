@@ -1,0 +1,12 @@
+.project-list {
+  gap: 80px;
+  padding-top: 20px;
+  padding-bottom: 120px;
+}
+
+@media (max-width: 600px) {
+  .project-list {
+    gap: 32px;
+    padding-bottom: 64px;
+  }
+}

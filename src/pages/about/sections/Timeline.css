@@ -1,0 +1,11 @@
+.timeline {
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+@media (max-width: 600px) {
+  .timeline {
+    padding-bottom: 64px;
+  }
+}

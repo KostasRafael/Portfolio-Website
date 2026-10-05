@@ -1,0 +1,11 @@
+.skills-categories {
+  gap: 40px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 600px) {
+  .skills-categories {
+    gap: 24px;
+  }
+}

@@ -1,0 +1,14 @@
+.kicker {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 12px;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+}
+
+.kicker__bracket {
+  color: var(--color-accent);
+}

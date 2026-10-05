@@ -1,0 +1,42 @@
+/* The intro above sits closer than usual so the heading, form and notes read as one block. */
+.contact-intro {
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+.contact {
+  align-items: center;
+  gap: 56px;
+  padding-top: 56px;
+  padding-bottom: 120px;
+}
+
+.contact__location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  text-align: center;
+}
+
+.contact__location-main {
+  font-size: 13px;
+}
+
+.contact__location-note {
+  font-size: 11px;
+  color: var(--color-text-subtle);
+}
+
+@media (max-width: 600px) {
+  .contact-intro {
+    padding-top: 56px;
+  }
+
+  .contact {
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 64px;
+  }
+}

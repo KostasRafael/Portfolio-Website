@@ -1,0 +1,13 @@
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--color-text-muted);
+  transition: color 0.15s;
+}
+
+.social-link:hover {
+  color: var(--color-text);
+}

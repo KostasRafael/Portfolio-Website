@@ -1,0 +1,17 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo__bracket {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--color-accent);
+}
+
+.logo__initials {
+  font-weight: 800;
+  font-size: 18px;
+}
