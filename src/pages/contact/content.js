@@ -8,8 +8,10 @@ export const intro = {
 
 export const contact = {
   form: {
-    // TODO: set to the form endpoint that should receive submissions (e.g. https://formspree.io/f/<id>).
-    action: '',
+    // Handled by Netlify Forms: submissions POST to the site root and match the static
+    // <form name="contact"> in contact.html. Email alerts are set up in the Netlify dashboard.
+    action: '/',
+    netlifyName: 'contact',
     fields: [
       { label: 'Name', name: 'name', placeholder: 'Alex Chen', autocomplete: 'name' },
       { label: 'Email Address', name: 'email', type: 'email', placeholder: 'alex@company.com', autocomplete: 'email' },

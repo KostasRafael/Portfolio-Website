@@ -40,3 +40,8 @@
     padding: 24px;
   }
 }
+
+.contact-form__honeypot {
+  position: absolute;
+  left: -9999px;
+}
