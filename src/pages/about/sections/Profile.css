@@ -29,6 +29,10 @@
   color: var(--color-text-muted);
 }
 
+.profile__cta {
+  display: flex;
+}
+
 .profile__intro {
   color: var(--color-text);
 }

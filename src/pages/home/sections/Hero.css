@@ -43,6 +43,12 @@
   max-width: 640px;
 }
 
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
 @media (max-width: 900px) {
   .hero {
     padding-top: 64px;

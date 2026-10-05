@@ -3,6 +3,7 @@ import { Section } from '../../../components/Section/Section.js'
 import { Kicker } from '../../../components/Kicker/Kicker.js'
 import { Terminal } from '../../../components/Terminal/Terminal.js'
 import { Button } from '../../../components/Button/Button.js'
+import { cvLink } from '../../../data/site.js'
 import './Hero.css'
 
 export function Hero({ kicker, titleLines, lead, terminal, cta }) {
@@ -27,7 +28,12 @@ export function Hero({ kicker, titleLines, lead, terminal, cta }) {
         ),
         h('p', { class: 'hero__lead' }, lead),
       ),
-      h('div', { class: 'hero__console' }, Terminal(terminal), Button(cta)),
+      h(
+        'div',
+        { class: 'hero__console' },
+        Terminal(terminal),
+        h('div', { class: 'hero__actions' }, Button(cta), Button(cvLink)),
+      ),
     ],
   })
 }

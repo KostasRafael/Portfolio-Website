@@ -1,5 +1,6 @@
 import { h, cx } from '../../lib/h.js'
 import { Logo } from '../Logo/Logo.js'
+import { Button } from '../Button/Button.js'
 import './NavBar.css'
 
 function NavLink({ label, href, active }) {
@@ -10,7 +11,8 @@ function NavLink({ label, href, active }) {
   )
 }
 
-export function NavBar({ links, activeHref }) {
+/** Site header: logo, primary navigation and an optional call-to-action button. */
+export function NavBar({ links, activeHref, cta }) {
   return h(
     'header',
     { class: 'navbar' },
@@ -20,5 +22,6 @@ export function NavBar({ links, activeHref }) {
       { class: 'nav', 'aria-label': 'Primary' },
       links.map((link) => NavLink({ ...link, active: link.href === activeHref })),
     ),
+    cta && Button({ ...cta, small: true }),
   )
 }

@@ -3,6 +3,8 @@ import { Section } from '../../../components/Section/Section.js'
 import { SectionHeader } from '../../../components/SectionHeader/SectionHeader.js'
 import { Portrait } from '../../../components/Portrait/Portrait.js'
 import { StatusIndicator } from '../../../components/StatusIndicator/StatusIndicator.js'
+import { Button } from '../../../components/Button/Button.js'
+import { cvLink } from '../../../data/site.js'
 import './Profile.css'
 
 export function Profile({ portrait, status, kicker, title, intro, paragraphs }) {
@@ -21,6 +23,7 @@ export function Profile({ portrait, status, kicker, title, intro, paragraphs }) 
           h('p', { class: 'profile__intro' }, intro),
           paragraphs.map((text) => h('p', {}, text)),
         ),
+        h('div', { class: 'profile__cta' }, Button(cvLink)),
       ),
     ],
   })

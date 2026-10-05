@@ -21,6 +21,10 @@
   color: var(--color-text-muted);
 }
 
+.page-intro__cta {
+  margin-top: 8px;
+}
+
 @media (max-width: 600px) {
   .page-intro {
     padding-top: 56px;

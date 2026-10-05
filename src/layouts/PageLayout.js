@@ -3,12 +3,12 @@ import '../styles/base.css'
 import { h } from '../lib/h.js'
 import { NavBar } from '../components/NavBar/NavBar.js'
 import { Footer } from '../components/Footer/Footer.js'
-import { navLinks, socialLinks, copyright } from '../data/site.js'
+import { navLinks, cvLink, socialLinks, copyright } from '../data/site.js'
 
 /** Shared page shell: nav bar, page content, footer. */
 export function PageLayout({ activeHref, children }) {
   return [
-    NavBar({ links: navLinks, activeHref }),
+    NavBar({ links: navLinks, activeHref, cta: cvLink }),
     h('main', {}, children),
     Footer({ copyright, socials: socialLinks }),
   ]
