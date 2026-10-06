@@ -47,16 +47,16 @@ export const projects = [
     repoUrl: 'https://github.com/KostasRafael/BudgetWise-API',
   },
   {
-    title: 'CodeSnap CLI',
-    image: { src: '/images/projects/codesnap.jpg', alt: 'CodeSnap CLI running in a terminal' },
+    title: 'Poker Scheduler',
+    image: { src: '/images/projects/poker-scheduler.png', alt: 'CodeSnap CLI running in a terminal' },
     problem:
-      'Developers waste time switching to screenshot tools and manually cropping code snippets for documentation and social sharing.',
+      'Poker players dont have a place where they can store and view the poker festivals they want to attend',
     solution:
-      'A lightweight Node.js CLI that reads source files, applies syntax highlighting with Shiki, and exports styled PNG screenshots — all from a single terminal command.',
-    tags: ['Node.js', 'Shiki', 'Sharp', 'CLI', 'TypeScript'],
+      'A clean user interface where users can create an account, login, and build their tournament schedule.',
+    tags: ['HTML', 'CSS', 'Javascript', 'Node.js', 'Express', 'MongoDB'],
     learned:
       'Designing intuitive CLI argument APIs, working with image buffers in Node, and publishing an npm package with proper semantic versioning.',
-    demoUrl: '#',
-    repoUrl: '#',
+    demoUrl: 'https://poker-scheduler.netlify.app/',
+    repoUrl: 'https://github.com/KostasRafael/Poker-Scheduler.git',
   },
 ]

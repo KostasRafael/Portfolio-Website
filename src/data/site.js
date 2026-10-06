@@ -8,13 +8,13 @@ export const navLinks = [
   { label: 'Contact', href: '/contact.html' },
 ]
 
-// ID of the CV PDF on Google Drive: the part between /d/ and /view in its share link
-// (https://drive.google.com/file/d/<ID>/view). The file must be shared as "Anyone with the link".
-const CV_DRIVE_FILE_ID = 'YOUR_GOOGLE_DRIVE_FILE_ID'
+// ID of the CV Google Doc: the part between /d/ and /edit in its share link
+// (https://docs.google.com/document/d/<ID>/edit). The doc must be shared as "Anyone with the link".
+const CV_GOOGLE_DOC_ID = '1pFbIOb62xxLKQ8tkdUOy8Kx-Oi5YiQ8vN0oC1qr1oaM'
 
 export const cvLink = {
   label: 'Download my CV',
-  href: `https://drive.google.com/uc?export=download&id=${CV_DRIVE_FILE_ID}`,
+  href: `https://docs.google.com/document/d/${CV_GOOGLE_DOC_ID}/export?format=pdf`,
   icon: 'download',
   external: true,
 }
