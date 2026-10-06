@@ -20,8 +20,8 @@ export const cvLink = {
 }
 
 export const socialLinks = [
-  { label: 'github.dev', icon: 'github', href: 'https://github.com/' },
-  { label: 'linkedin.dev', icon: 'linkedin', href: 'https://www.linkedin.com/' },
+  { label: 'github.dev', icon: 'github', href: 'https://github.com/KostasRafael/', external: true },
+  { label: 'linkedin.dev', icon: 'linkedin', href: 'https://www.linkedin.com/in/konstantinos-rafael-manousoudakis/', external: true },
   { label: 'email', icon: 'mail', href: '/contact.html' },
 ]
 
