@@ -1,15 +1,20 @@
 // Copy for the About page.
 
 export const profile = {
-  portrait: { src: '/images/portrait.jpg', alt: 'Portrait of Alex Chen' },
+  portrait: {
+    src: '/images/profile-image.jpeg',
+    alt: 'Portrait of Konstantinos Rafael Manousoudakis',
+    width: 400,
+    height: 400,
+  },
   status: 'STATUS: OPEN TO FULL-TIME OPPORTUNITIES',
   kicker: 'developer-profile',
   title: 'About Me',
   intro:
-    "Hello, I'm Alex. I am a frontend developer who loves bringing structure, high performance, and deep accessibility to user interfaces.",
+    "Hello, I'm Konstantinos Rafael Manousoudakis. I am a full-stack web developer who specializes in the MERN stack (MongoDB, Express, Reack and Node.js).",
   paragraphs: [
-    "My journey into web engineering solidified in 2023 when I graduated from the Software Engineering Immersive program at General Assembly. Since then, I've shipped three real-world production projects and actively contributed to popular open-source libraries.",
-    'I currently spend my time helping startups build pixel-perfect, secure frontends while freelancing in the Bay Area. I believe in writing readable, maintainable typescript code and treating page speed as a primary feature.',
+    "I have completed CareerFoundry's intence, project-based course in full-stack web development. Prior to this, I graduated Philosophy at the university of Warwick.",
+    'I am currently job hunting while also freelancing.',
   ],
 }
 
